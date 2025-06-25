@@ -1,0 +1,54 @@
+#################################
+#          BACKEND (.NET)       #
+#################################
+## Build Results
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio
+.vscode/
+.vs/
+
+## Logs and temp files
+*.log
+*.tmp
+
+## Secrets and config
+appsettings.Development.json
+appsettings.Local.json
+
+#################################
+#         FRONTEND (React)      #
+#################################
+## Dependencies
+myplanner-frontend/node_modules/
+
+## Builds
+myplanner-frontend/build/
+myplanner-frontend/dist/
+
+## Env files
+myplanner-frontend/.env
+myplanner-frontend/.env.*
+
+## Logs
+myplanner-frontend/npm-debug.log*
+myplanner-frontend/yarn-debug.log*
+myplanner-frontend/yarn-error.log*
+
+#################################
+#     OS & Editor Junk Files    #
+#################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+*.iml
